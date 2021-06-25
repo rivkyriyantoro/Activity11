@@ -1,5 +1,6 @@
 package com.example.testbarang;
 
+
 import java.io.Serializable;
 
 public class Barang implements Serializable {
@@ -36,3 +37,4 @@ public class Barang implements Serializable {
     }
 
 }
+
