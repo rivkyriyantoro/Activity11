@@ -44,7 +44,7 @@ public class TambahData extends AppCompatActivity{
                     submitBrg(new Barang(etKode.getText().toString(),
                             etNama.getText().toString()));
                 else
-                    Toast.makeText(getApplicationContext(), "Data TIdak Boleh Kosong", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "Data Tidak Boleh Kosong", Toast.LENGTH_LONG).show();
 
                 InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
                 imm.hideSoftInputFromWindow(etKode.getWindowToken(),0);
